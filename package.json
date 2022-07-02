@@ -6,7 +6,9 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "tauri": "tauri"
+    "tauri": "tauri",
+    "docs:dev": "hugo -s ./docs/ -d ../public/docs server -D",
+    "docs:build": "hugo -s ./docs/  -d ../public/docs -D"
   },
   "dependencies": {
     "@tauri-apps/api": "^1.0.1",
