@@ -1,3 +1,3 @@
-<template>
-<h2>Hello</h2>
+<template lang="pug">
+h2 hello world!
 </template>
