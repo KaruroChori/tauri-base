@@ -1,3 +1,15 @@
+# Tauri / Hugo / TS / Vue 3 / Vite
+
+Basic repository to provide a functional environment for Tauri with:
+
+- Vue 3 support, TS and Vite
+- Hugo documentation to write content in markdown
+- Automatic tools for TS types generation from json schemas (support for yaml notation)
+
+Future integrations:
+
+- Stub code generation for OpenAPI on ts and rust.
+
 # Vue 3 + TypeScript + Vite
 
 This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
