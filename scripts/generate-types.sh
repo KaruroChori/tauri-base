@@ -15,6 +15,8 @@ for file in $FILES; do
   echo "- $FILE"
   mkdir -p "./schemas/build/$POS" && touch "./schemas/build/${FILE%.*}.json"
   echo "{\"\$ref\":\"${file}\"}">> "./schemas/build/${FILE%.*}.json"
+
+  echo "export * from \"./${FILE%.*}\"" >> "./src/types.auto/index.d.ts"
 done
 
 json2ts -i ./schemas/build -o ./src/types.auto/ 
