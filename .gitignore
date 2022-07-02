@@ -12,6 +12,7 @@ dist
 dist-ssr
 src-tauri/target
 public/docs
+docs/resources
 *.local
 
 # Editor directories and files
