@@ -13,6 +13,8 @@ dist-ssr
 src-tauri/target
 public/docs
 docs/resources
+schemas/build
+src/types.auto
 *.local
 
 # Editor directories and files

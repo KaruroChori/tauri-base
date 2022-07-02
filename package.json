@@ -8,7 +8,8 @@
     "preview": "vite preview",
     "tauri": "tauri",
     "docs:dev": "hugo -s ./docs/ -d ../public/docs server -D",
-    "docs:build": "hugo -s ./docs/  -d ../public/docs -D"
+    "docs:build": "hugo -s ./docs/  -d ../public/docs -D",
+    "types:gen": "sh ./scripts/generate-types.sh"
   },
   "dependencies": {
     "@tauri-apps/api": "^1.0.1",
@@ -19,6 +20,7 @@
     "@vitejs/plugin-vue": "^2.3.3",
     "typescript": "^4.5.4",
     "vite": "^2.9.9",
-    "vue-tsc": "^0.34.7"
+    "vue-tsc": "^0.34.7",
+    "json-schema-to-typescript": "^10.1.5"
   }
 }
