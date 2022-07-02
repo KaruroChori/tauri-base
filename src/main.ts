@@ -4,7 +4,7 @@ import { createPinia } from 'pinia'
 import App from './App.vue'
 
 import * as types from "./types.auto/"
-
+import "@/index.css"
 
 const i18n = createI18n({})
 const app = createApp(App)
