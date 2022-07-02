@@ -18,6 +18,7 @@ src/types.auto
 *.local
 
 # Editor directories and files
+.storybook/*
 .vscode/*
 !.vscode/extensions.json
 .idea
